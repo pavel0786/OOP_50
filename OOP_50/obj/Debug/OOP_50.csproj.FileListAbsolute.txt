@@ -1,0 +1,16 @@
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\OOP_50.exe.config
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.csprojResolveAssemblyReference.cache
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Properties.Resources.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.csproj.GenerateResource.Cache
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\OOP_50.exe
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\OOP_50.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.exe
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.MDIParentForShow.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_InterestCalculation.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_GenerateSeries.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_PersonalInfo.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_Array.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_SimpleCalculator.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_BonusCalculator.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_ArrayDynamic.resources
