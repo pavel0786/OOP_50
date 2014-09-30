@@ -113,5 +113,10 @@ namespace OOP_50
         {
             LoadForm(new Frm_BonusCalculator());
         }
+
+        private void dynamicArrayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Frm_ArrayDynamic());
+        }
     }
 }

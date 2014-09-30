@@ -40,11 +40,12 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.simpleCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bonusCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.dynamicArrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             this.practiceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2});
             this.practiceToolStripMenuItem.Name = "practiceToolStripMenuItem";
-            this.practiceToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.practiceToolStripMenuItem.Size = new System.Drawing.Size(61, 23);
             this.practiceToolStripMenuItem.Text = "Practice";
             // 
             // toolStripMenuItem2
@@ -78,7 +79,7 @@
             this.seriesPrintToolStripMenuItem,
             this.arrayToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(132, 22);
             this.toolStripMenuItem2.Text = "2014_09_27";
             // 
             // personalInfoToolStripMenuItem
@@ -114,16 +115,17 @@
             this.homeWorkToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem3});
             this.homeWorkToolStripMenuItem.Name = "homeWorkToolStripMenuItem";
-            this.homeWorkToolStripMenuItem.Size = new System.Drawing.Size(177, 20);
+            this.homeWorkToolStripMenuItem.Size = new System.Drawing.Size(177, 23);
             this.homeWorkToolStripMenuItem.Text = "Home Work by Assigned Date";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.simpleCalculatorToolStripMenuItem,
-            this.bonusCalculatorToolStripMenuItem});
+            this.bonusCalculatorToolStripMenuItem,
+            this.dynamicArrayToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem3.Text = "2014_09_27";
             // 
             // simpleCalculatorToolStripMenuItem
@@ -139,6 +141,16 @@
             this.bonusCalculatorToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.bonusCalculatorToolStripMenuItem.Text = "Bonus Calculator";
             this.bonusCalculatorToolStripMenuItem.Click += new System.EventHandler(this.bonusCalculatorToolStripMenuItem_Click);
+            // 
+            // toolStripComboBox1
+            // 
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
             // 
             // statusStrip
             // 
@@ -156,15 +168,12 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // toolStripComboBox1
+            // dynamicArrayToolStripMenuItem
             // 
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
-            // 
-            // toolStripTextBox1
-            // 
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
+            this.dynamicArrayToolStripMenuItem.Name = "dynamicArrayToolStripMenuItem";
+            this.dynamicArrayToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.dynamicArrayToolStripMenuItem.Text = "Dynamic Array";
+            this.dynamicArrayToolStripMenuItem.Click += new System.EventHandler(this.dynamicArrayToolStripMenuItem_Click);
             // 
             // MDIParentForShow
             // 
@@ -205,6 +214,7 @@
         private System.Windows.Forms.ToolStripMenuItem bonusCalculatorToolStripMenuItem;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.ToolStripMenuItem dynamicArrayToolStripMenuItem;
     }
 }
 
