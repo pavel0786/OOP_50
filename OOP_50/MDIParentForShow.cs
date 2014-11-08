@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OOP_50.HomeWork;
+using OOP_50.ClassTest;
 
 namespace OOP_50
 {
@@ -17,9 +18,8 @@ namespace OOP_50
         public MDIParentForShow()
         {
             InitializeComponent();
-            //LoadForm(new Frm_InterestCalculation());
-            //LoadForm(new Frm_GenerateSeries());
-            //LoadForm(new Frm_Array());
+            //LoadForm(new Frm_CustomerComplainQuiue());
+            //LoadForm(new DepartmentUI());
         }
         
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
@@ -117,6 +117,76 @@ namespace OOP_50
         private void dynamicArrayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoadForm(new Frm_ArrayDynamic());
+        }
+
+        private void callByValueAndReferenceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new FileReadWrite());
+        }
+
+        private void directoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Frm_Directory());
+        }
+
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Frm_ListView());
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zxczxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Frm_DailyExpense());
+        }
+
+        private void cutomerComplainQuiueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Frm_CustomerComplainQuiue());
+        }
+
+        private void calculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new CalculatorUI());
+        }
+
+        private void salaryCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new SalaryCalulatorUI());
+        }
+
+        private void circleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new CircleUI());
+        }
+
+        private void bankAccountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new BankAccountUI());
+        }
+
+        private void studentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new StudentUI());
+        }
+
+        private void departmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadForm(new DepartmentUI());
+        }
+
+        private void MDIParentForShow_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

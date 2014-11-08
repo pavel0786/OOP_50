@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OOP_50</RootNamespace>
     <AssemblyName>OOP_50</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
@@ -37,6 +37,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,11 +47,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>OOP_50.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSVLib">
+      <HintPath>Library\CSVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ListViewHelperApp">
+      <HintPath>Library\ListViewHelperApp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -63,6 +71,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassTest\Frm_DailyExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassTest\Frm_DailyExpense.Designer.cs">
+      <DependentUpon>Frm_DailyExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Account.cs" />
+    <Compile Include="Class\Calculator.cs" />
+    <Compile Include="Class\Circle.cs" />
+    <Compile Include="Class\Customer.cs" />
+    <Compile Include="Class\Department.cs" />
+    <Compile Include="Class\Employee.cs" />
+    <Compile Include="Class\Student.cs" />
+    <Compile Include="DLL\DepartmentGateway.cs" />
     <Compile Include="HomeWork\Frm_ArrayDynamic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,11 +109,53 @@
     <Compile Include="MDIParentForShow.Designer.cs">
       <DependentUpon>MDIParentForShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practice\BankAccountUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\BankAccountUI.Designer.cs">
+      <DependentUpon>BankAccountUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\CalculatorUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\CalculatorUI.Designer.cs">
+      <DependentUpon>CalculatorUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\CircleUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\CircleUI.Designer.cs">
+      <DependentUpon>CircleUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\DepartmentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\DepartmentUI.Designer.cs">
+      <DependentUpon>DepartmentUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\FileReadWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\FileReadWrite.Designer.cs">
+      <DependentUpon>FileReadWrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\Frm_CustomerComplainQuiue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\Frm_CustomerComplainQuiue.Designer.cs">
+      <DependentUpon>Frm_CustomerComplainQuiue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice\Frm_Array.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Practice\Frm_Array.Designer.cs">
       <DependentUpon>Frm_Array.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\Frm_Directory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\Frm_Directory.Designer.cs">
+      <DependentUpon>Frm_Directory.cs</DependentUpon>
     </Compile>
     <Compile Include="Practice\Frm_GenerateSeries.cs">
       <SubType>Form</SubType>
@@ -105,14 +169,35 @@
     <Compile Include="Practice\Frm_InterestCalculation.Designer.cs">
       <DependentUpon>Frm_InterestCalculation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practice\Frm_ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\Frm_ListView.Designer.cs">
+      <DependentUpon>Frm_ListView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice\Frm_PersonalInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Practice\Frm_PersonalInfo.Designer.cs">
       <DependentUpon>Frm_PersonalInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practice\SalaryCalulatorUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\SalaryCalulatorUI.Designer.cs">
+      <DependentUpon>SalaryCalulatorUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice\StudentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice\StudentUI.Designer.cs">
+      <DependentUpon>StudentUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ClassTest\Frm_DailyExpense.resx">
+      <DependentUpon>Frm_DailyExpense.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeWork\Frm_ArrayDynamic.resx">
       <DependentUpon>Frm_ArrayDynamic.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,8 +210,29 @@
     <EmbeddedResource Include="MDIParentForShow.resx">
       <DependentUpon>MDIParentForShow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Practice\BankAccountUI.resx">
+      <DependentUpon>BankAccountUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\CalculatorUI.resx">
+      <DependentUpon>CalculatorUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\CircleUI.resx">
+      <DependentUpon>CircleUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\DepartmentUI.resx">
+      <DependentUpon>DepartmentUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\FileReadWrite.resx">
+      <DependentUpon>FileReadWrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\Frm_CustomerComplainQuiue.resx">
+      <DependentUpon>Frm_CustomerComplainQuiue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practice\Frm_Array.resx">
       <DependentUpon>Frm_Array.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\Frm_Directory.resx">
+      <DependentUpon>Frm_Directory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Practice\Frm_GenerateSeries.resx">
       <DependentUpon>Frm_GenerateSeries.cs</DependentUpon>
@@ -134,8 +240,17 @@
     <EmbeddedResource Include="Practice\Frm_InterestCalculation.resx">
       <DependentUpon>Frm_InterestCalculation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Practice\Frm_ListView.resx">
+      <DependentUpon>Frm_ListView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practice\Frm_PersonalInfo.resx">
       <DependentUpon>Frm_PersonalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\SalaryCalulatorUI.resx">
+      <DependentUpon>SalaryCalulatorUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice\StudentUI.resx">
+      <DependentUpon>StudentUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,7 +275,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
@@ -172,6 +286,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{e6cba446-caae-48be-b632-dcfaea95241b}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="DLL\DAO\" />
+    <Folder Include="DLL\Gateway\" />
+    <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

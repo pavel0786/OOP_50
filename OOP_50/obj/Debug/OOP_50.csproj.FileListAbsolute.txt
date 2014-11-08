@@ -1,5 +1,4 @@
 D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\OOP_50.exe.config
-D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.csprojResolveAssemblyReference.cache
 D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Properties.Resources.resources
 D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.csproj.GenerateResource.Cache
 D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\OOP_50.exe
@@ -14,3 +13,20 @@ D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_Array.resources
 D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_SimpleCalculator.resources
 D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_BonusCalculator.resources
 D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.HomeWork.Frm_ArrayDynamic.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.FileReadWrite.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_Directory.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_ListView.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.csprojResolveAssemblyReference.cache
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.ClassTest.Frm_DailyExpense.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\CSVLib.dll
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\ListViewHelperApp.dll
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\ListViewHelperApp.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.Frm_CustomerComplainQuiue.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.CalculatorUI.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.CircleUI.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.SalaryCalulatorUI.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.BankAccountUI.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.StudentUI.resources
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\Database.dll
+D:\OOP_50\Projects\OOP_50\OOP_50\bin\Debug\Database.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50\obj\Debug\OOP_50.Practice.DepartmentUI.resources

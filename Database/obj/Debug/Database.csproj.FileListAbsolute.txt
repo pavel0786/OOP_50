@@ -1,0 +1,4 @@
+D:\OOP_50\Projects\OOP_50\Database\bin\Debug\Database.dll
+D:\OOP_50\Projects\OOP_50\Database\bin\Debug\Database.pdb
+D:\OOP_50\Projects\OOP_50\Database\obj\Debug\Database.dll
+D:\OOP_50\Projects\OOP_50\Database\obj\Debug\Database.pdb
