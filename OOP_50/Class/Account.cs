@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_50.Class
 {
-    class Account
+    public class Account
     {
         private string accountName;
         private string accountNumber;
@@ -37,7 +37,11 @@ namespace OOP_50.Class
 
         public bool Withdraw(decimal amount)
         {
-            balance = balance - amount;
+            if (amount<=balance)
+            {
+                balance = balance - amount;
+                return true;
+            }
             return true;
         }
 
@@ -45,6 +49,7 @@ namespace OOP_50.Class
         {
             this.accountName = Name;
             this.accountNumber = No;
+            balance = 0;
         }
 
     }

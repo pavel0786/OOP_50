@@ -1,0 +1,12 @@
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\OOP_50.Test.dll
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\OOP_50.Test.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\nunit.framework.dll
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\OOP_50.exe
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\CSVLib.dll
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\Database.dll
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\OOP_50.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\nunit.framework.xml
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\bin\Debug\Database.pdb
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\obj\Debug\OOP_50.Test.csprojResolveAssemblyReference.cache
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\obj\Debug\OOP_50.Test.dll
+D:\OOP_50\Projects\OOP_50\OOP_50.Test\obj\Debug\OOP_50.Test.pdb
